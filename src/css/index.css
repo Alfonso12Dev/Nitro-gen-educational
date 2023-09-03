@@ -1,0 +1,201 @@
+@media (max-width: 500px) {
+    
+textarea {
+height: 10%;
+line-height: 1.25;
+    }
+
+    button {
+        background-color:#000000;
+        cursor:pointer;
+        color:#00ff00;
+        font-family:Arial;
+        font-size:50px;
+        padding:50px 60px;
+        text-decoration:none;
+    }
+    }
+ 
+ /*Para el texto NEON*/   
+.neonText {
+animation: flicker 1.5s infinite alternate;
+color: #fff;
+}
+      
+      
+/* Flickering animation */
+@keyframes flicker {
+          
+0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      
+text-shadow:
+0 0 4px #D10D48,
+0 0 11px #D10D48,
+0 0 19px #D10D48,
+0 0 80px #D10D72,
+0 0 90px #D10D72,
+0 0 100px #0D3AD1,
+0 0 150px #0D3AD1;
+}
+        
+20%, 24%, 55% {        
+text-shadow: none;
+}    
+ }
+      
+ h1, h2 {
+text-align: center;
+text-transform: uppercase;
+text-align: center;
+font-weight: 400;
+      }    
+
+.button0 {
+font-size:20px;
+padding:50px 60px;
+    }
+     
+/*-- SCROLLBAR (Lo que te permite deslizarte en una web)--*/
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+background: #0d052e; 
+  }
+   
+::-webkit-scrollbar-thumb {
+background: #0737FA; 
+  }
+  
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+  }
+      
+/*Lado en donde aparecerá el código*/
+textarea {
+background-color: #000;
+border: 1px solid #000;
+color: #00ff00;
+padding: 20%;
+left: 4%;
+position: relative;
+width: 50%;
+white-space: pre-line;
+text-align: justify;
+text-align-last: center;
+font-family: courier new;
+}
+    
+/*Centramos el contenido de la web*/
+.container {
+font-size: 24px;
+margin: 2.5%;
+width: 45%;
+height: 30%;
+background-color: rgba(35,23,101,.5);
+border: 1px solid #234b79;
+border-radius: 5px;
+}
+ 
+/*Centramos los parráfos*/
+p {
+text-align: center;
+animation: pulsate 0.11s ease-in-out infinite alternate;  
+}
+
+
+/*Segundo texto NEON*/
+@keyframes pulsate {
+    100% {
+      text-shadow:
+      0 0 4px #4e1fcf,
+      0 0 10px #4e1fcf,
+      0 0 18px #4e1fcf,
+      0 0 38px rgba(255, 0, 153, 0.219),
+      0 0 73px rgba(255, 0, 153, 0.219),
+      0 0 80px rgba(255, 0, 153, 0.219),
+      0 0 94px rgba(255, 0, 153, 0.219),
+      0 0 140px rgba(255, 0, 153, 0.219);
+    }
+   0% {
+      text-shadow:
+        0 0 4px #4e1fcf,
+        0 0 10px #4e1fcf,
+        0 0 18px #4e1fcf,
+        0 0 38px rgba(255, 0, 153, 0.219),
+        0 0 73px rgba(255, 0, 153, 0.219),
+        0 0 80px rgba(255, 0, 153, 0.219),
+        0 0 94px rgba(255, 0, 153, 0.219),
+        0 0 140px rgba(255, 0, 153, 0.219);
+    }
+  }
+
+/*Elemento a centrar (donde se añade la velocidad)*/  
+#speed{
+text-align: center;
+align-items: center;
+justify-content: center;
+margin: 0%;
+background-color: #000;
+color: #00ff00;
+width: 31%;
+left: 33%;
+position: relative;
+}  
+
+/*Los logos de los botones*/
+.image-button {
+display: inline-flex;
+align-items: center;
+justify-content: center;
+background-color: #124354;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.image-button img {
+height: 20px;
+margin-right: 10px;
+}
+
+/*El cuerpo de la web*/
+body {
+
+margin: 0%; 
+background: url("https://bitcoinmaniagame.com/app/images/homepage/sity_2.png");
+background-attachment: fixed;
+background-color: #1e0150;
+background-size: cover;
+font-family: "ＭＳ Ｐゴシック";
+background-repeat: no-repeat;
+display: flex;
+font-size: 20%;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+    
+input {
+background-color: #000;
+color: #00ff00;
+    }
+    
+button {
+background-color: #000000;
+cursor: pointer;
+color: #00ff00;
+font-family: Arial;
+font-size: 17px;
+padding: 7px 8px;
+text-decoration: none;
+    }
+
+button:active {
+position: relative;
+top: 1%;
+}
+    

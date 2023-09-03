@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<!--Sitio en donde añadiremos los metatag y el título de la web-->
+<head>
+<title>Nitro Generador</title>
+<meta content='width=device-width, initial-scale=1' name='viewport'/>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="NitroGen" />
+<meta property="og:description" content="Nitro generador (Unchecked)" />
+<meta property="og:url" content="http://sitesgithub.github.io/nitro/index.html" />
+<meta property="og:image" content="https://images.discordapp.net/avatars/482584715673600026/3813e13cf3e89eb5ab314dcda58f5d96.png?size=512" />
+<link rel="stylesheet" type="text/css" href="./src/css/index.css">
+</head>
+
+<!--El cuerpo de la web-->
+<body>
+
+<!--Donde se mostrara todo el diseño de la web-->	
+<div class="container">
+
+<!--Texto principal-->	
+<h2 class="neonText">Generador de Discord Nitro (Unchecked)</h2>
+
+<!--Definimos el área en donde aparecerá el generador de nitro-->
+<textarea id="a" rows="11" cols="100" readonly style="resize: none;">
+Gracias por utilizar los servicios de Heather_dev!! Espero que le sea útil este generador de nitro UNCHECKED
+
+     ⢀⣀⣤⣤⡀⠀⠀⠀⠀⢀⣤⣤⣀⡀⠀⠀⠀⠀   
+  ⢠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀  
+ ⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀ 
+⢀⣿⣿⣿⣿⣿⡿⠿⣿⣿⣿⣿⣿⣿⠿⢿⣿⣿⣿⣿⣿⡀
+⣸⣿⣿⣿⣿⡏⠀⠀⠀⢻⣿⣿⡟⠀⠀⠀⢹⣿⣿⣿⣿⣇  
+⣿⣿⣿⣿⣿⣧⡀⠀⣀⣾⣿⣿⣷⣀⠀⢀⣼⣿⣿⣿⣿⣿ 
+⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
+⠙⠻⢿⣿⣿⣶⡭⠙⠛⠛⠛⠛⠛⠛⠋⢭⣶⣿⣿⡿⠟⠋  
+⠀⠀⠀⠈⠙⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠋⠁⠀⠀⠀
+
+―――――――――――――――――――――――――――――――――――――――
+[INFO] Generador de Códigos de NITRO.
+[INFO] Los códigos se publicarán exactamente aquí.
+[INFO] La mayoría de los códigos no funcionaran (Para eso utiliza algún CHECKER DE NITRO)!!
+____
+―――――――――――――――――――――――――――――――――――
+</textarea>
+
+<!--Saltamos una línea-->
+<br>
+
+<!--<a href="index0.html" style="font-family:Arial; color: #00ff00">Want to generate a specific number of codes? Click me!</a>
+<p></p>-->
+
+<!--Le preguntamos al usuario a que velocidad desee que se genere cada nitro-->
+<p style="font-family: Arial; color: #00ff00">¿Cúantos códigos deseas que se generen por segundo? (3 Por defecto)</p>
+
+<!--Definimos la opción en donde se podrá calibrar la velocidad en la cual donde se generara cada nitro-->
+<input type="text" id="speed" value="3">
+ <br>
+   <br>
+
+<!--Botón en el cual generaremos los códigos-->
+<button id='generate' class="image-button">
+<img src="https://cdn.discordapp.com/emojis/1082414368593019033.gif?size=4096" alt="Image">
+Generar </button>
+
+<!--Botón para detener el proceso de generación de códigos-->
+<button id='stop' class="image-button"> 
+<img src="https://cdn.discordapp.com/emojis/741479238162448404.png?size=4096" alt="Image">	
+Detener 
+</button>
+
+<!--Botón para guardar el código-->
+<button class="image-button" id='save'>
+<img src="https://cdn.discordapp.com/emojis/817912269266354227.gif?size=4096" alt="Image">	
+Descargar
+</button>
+
+<!--Botón para hacer clear a la ventana de textarea-->
+<button class="image-button" id="clear">
+<img src="https://cdn.discordapp.com/emojis/941792129045377054.gif?size=4096" alt="Image">		
+Limpiar
+</button>
+
+<!--Establecemos el textarea por defecto (el que no tiene nada)-->
+<textarea style="display: none;" id="b" rows="11" cols="100" readonly> </textarea>
+
+<!--Enlazamos el siguiente script-->
+<script src="./src/css/js/main.js"></script>
+<script src="./src/css/js/loader.js"></script>
+</div>
+<!--Cerramos todo el contenido de la web-->
+
+</body>
+</html>
