@@ -123,6 +123,7 @@ Gracias por utilizar los servicios de Heather_dev!! Espero que le sea útil este
 ―――――――――――――――――――――――――――――――――――――――
 [INFO] Generador de Códigos de NITRO.
 [INFO] Los códigos se publicarán exactamente aquí.
+[INFO] Este generador fue creado de manera educacional, para visualizar un simulador de generador de nitro!
 [INFO] La mayoría de los códigos no funcionaran (Para eso utiliza algún CHECKER DE NITRO)!!
 ____
 ―――――――――――――――――――――――――――――――――――
